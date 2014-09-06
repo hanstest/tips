@@ -1,0 +1,400 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+.markdown-format .octicon-link:before {
+    content: "\f05c"
+}
+
+.markdown-format h1 .octicon-link, .markdown-format h2 .octicon-link, .markdown-format h3 .octicon-link, .markdown-format h4 .octicon-link, .markdown-format h5 .octicon-link, .markdown-format h6 .octicon-link {
+    display: none;
+    color: #000
+}
+
+.markdown-format h1 a.anchor:focus, .markdown-format h2 a.anchor:focus, .markdown-format h3 a.anchor:focus, .markdown-format h4 a.anchor:focus, .markdown-format h5 a.anchor:focus, .markdown-format h6 a.anchor:focus {
+    outline: none
+}
+
+.markdown-format h1:hover a.anchor, .markdown-format h2:hover a.anchor, .markdown-format h3:hover a.anchor, .markdown-format h4:hover a.anchor, .markdown-format h5:hover a.anchor, .markdown-format h6:hover a.anchor {
+    text-decoration: none;
+    line-height: 1;
+    padding-left: 0;
+    top: 15%
+}
+
+.markdown-format h1:hover a.anchor .octicon-link, .markdown-format h2:hover a.anchor .octicon-link, .markdown-format h3:hover a.anchor .octicon-link, .markdown-format h4:hover a.anchor .octicon-link, .markdown-format h5:hover a.anchor .octicon-link, .markdown-format h6:hover a.anchor .octicon-link {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -16px
+}
+
+.markdown-format h4.header a.anchor .octicon-link {
+    display: none
+}
+
+.markdown-format h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 20px
+}
+
+.markdown-format h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 20px
+}
+
+.markdown-format > h1:first-child, .markdown-format > h2 {
+    margin-top: 0
+}
+
+.markdown-format h3 {
+    color: #325d72;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 1.5em 0 1em;
+    border-bottom: 1px solid #dddddd
+}
+
+.markdown-format h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 1em 0
+}
+
+.markdown-format h5 {
+    color: #325D72;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 1em 0
+}
+
+.markdown-format h6 {
+    color: #666666;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 1em 0
+}
+
+.markdown-format p {
+    margin: 1em 0
+}
+
+.markdown-format ul {
+    padding-left: .7em;
+    padding-bottom: 10px;
+    margin: 1em 0
+}
+
+.markdown-format ul li {
+    background: transparent url(/assets/help/li-chevron-2adf7c72b4c0d10e82450f9a64612440.png) 0 0.4em no-repeat;
+    padding-left: .7em;
+    margin: 5px 0
+}
+
+.markdown-format ol {
+    counter-reset: li;
+    list-style: none;
+    position: relative;
+    padding-bottom: 10px
+}
+
+.markdown-format ol > li {
+    padding: 5px 0 5px 55px;
+    position: relative;
+    margin-bottom: 5px
+}
+
+.markdown-format ol > li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    padding: 0 10px 0 0;
+    color: #999999;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: right;
+    border-right: 1px solid #ddd
+}
+
+.markdown-format ol > li > p:first-child {
+    margin-top: 0
+}
+
+.markdown-format ol > li:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.markdown-format ol > li img {
+    max-width: 100px;
+    margin: 0 0 0 10px;
+    float: right;
+    border: 1px solid #dddddd;
+    cursor: pointer
+}
+
+.markdown-format ol > li img.expanded {
+    max-width: 400px
+}
+
+.markdown-format a {
+    color: #4183c4;
+    text-decoration: none
+}
+
+.markdown-format a:hover {
+    text-decoration: underline
+}
+
+.markdown-format a code {
+    border-color: #4183C4
+}
+
+.markdown-format strong {
+    font-weight: bold
+}
+
+.markdown-format img {
+    padding: 1px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    max-width: 660px
+}
+
+.markdown-format hr {
+    margin: 1.5em 0
+}
+
+.markdown-format blockquote {
+    color: #666666;
+    background: transparent url(/assets/help/blockquote-arrow-5943f2348ea9b882b1e96edf6e108474.png) 0 2px no-repeat;
+    padding-left: 15px;
+    margin: 1em 0
+}
+
+.markdown-format blockquote strong {
+    color: #666666
+}
+
+.markdown-format table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid #dddddd;
+    border-width: 1px 1px 2px 1px;
+    margin: 1em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.markdown-format table th, .markdown-format table td {
+    border: solid #dddddd;
+    border-width: 1px;
+    padding: 10px;
+    vertical-align: top
+}
+
+.markdown-format table th > *:first-child, .markdown-format table td > *:first-child {
+    margin-top: 0
+}
+
+.markdown-format table th > *:first-child, .markdown-format table td > *:first-child {
+    margin-bottom: 0
+}
+
+.markdown-format table th {
+    font-weight: bold;
+    color: #325d72;
+    background-color: #eee
+}
+
+.markdown-format dl {
+    margin: 1em 0
+}
+
+.markdown-format dl dt {
+    font-weight: bold
+}
+
+.markdown-format dl dd {
+    padding: 0 0 .1em 20px
+}
+
+.markdown-format dl dd .alert {
+    margin-bottom: 10px
+}
+
+.markdown-format .intro {
+    color: #666666
+}
+
+.markdown-format .alert {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #264c72;
+    border: 1px solid #97c1da;
+    border-radius: 3px;
+    background-color: #d8ebf8;
+    background: -moz-linear-gradient(#d8ebf8, #d0e3ef);
+    background: -webkit-linear-gradient(#d8ebf8, #d0e3ef);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8ebf8', endColorstr='#d0e3ef')";
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8)
+}
+
+.markdown-format .alert + .alert {
+    margin-top: 5px
+}
+
+.markdown-format .alert > *:first-child {
+    margin-top: 0
+}
+
+.markdown-format .alert > *:last-child {
+    margin-bottom: 0
+}
+
+.markdown-format .alert.warning {
+    color: #613A00;
+    background-color: #ffe3c8;
+    background: -moz-linear-gradient(#ffe3c8, #f5dac0);
+    background: -webkit-linear-gradient(#ffe3c8, #f5dac0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe3c8', endColorstr='#f5dac0')";
+    border: 1px solid #dca874
+}
+
+.markdown-format .alert.error {
+    color: #9c2400;
+    background-color: #f8d8d8;
+    background: -moz-linear-gradient(#f8d8d8, #efd0d0);
+    background: -webkit-linear-gradient(#f8d8d8, #efd0d0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8d8d8', endColorstr='#efd0d0')";
+    border: 1px solid #da9797
+}
+
+.markdown-format .alert code {
+    font-size: 12px;
+    background: red;
+    background: rgba(248, 248, 248, 0.6);
+    border: 1px solid #bbb
+}
+
+.markdown-format code {
+    padding: 0px 5px 2px;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    font-family: Monaco, "DejaVu Sans Mono", "Courier New", monospace;
+    font-size: 13px;
+    color: #666666;
+    background: #f8f8f8
+}
+
+.markdown-format pre {
+    padding: 8px 10px 8px;
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    font-family: Monaco, "DejaVu Sans Mono", "Courier New", monospace;
+    font-size: 13px;
+    color: #666666;
+    -webkit-font-smoothing: inherit;
+    overflow: auto;
+    background: #f8f8f8
+}
+
+.markdown-format pre code {
+    padding: 0;
+    border: none
+}
+
+.markdown-format pre span {
+    white-space: pre-wrap
+}
+
+.markdown-format pre span.tooltip {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.markdown-format pre span.tooltip span {
+    display: block;
+    color: #999999
+}
+
+.markdown-format pre span.tooltip:hover {
+    background: #eee;
+    padding: 0 2px;
+    margin-left: -2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.markdown-format pre.command-line {
+    border: 2px solid #dddddd;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    -webkit-font-smoothing: auto
+}
+
+.markdown-format pre.command-line em {
+    color: #F9FE64;
+    font-style: italic
+}
+
+.markdown-format pre.command-line .command:before {
+    content: "$ "
+}
+
+.markdown-format pre.command-line .comment {
+    color: #ccc
+}
+
+.markdown-format pre.command-line .output {
+    color: #63E463
+}
+
+.markdown-format pre.command-line .output span {
+    position: fixed;
+    top: -1000px;
+    left: -1000px
+}
+
