@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-ui-router.min.js"></script>
+    <script>
+        var myApp = angular.module('myApp', ['ui.router']);
+        myApp.config(function($stateProvider) {
+            $stateProvider
+                .state('index', {
+                    url: "",
+                    views: {
+                        "viewA": { template: "index.viewA" },
+                        "viewB": { template: "index.viewB" }
+                    }
+                })
+                .state('route1', {
+                    url: "/route1",
+                    views: {
+                        "viewA": { template: "route1.viewA" },
+                        "viewB": { template: "route1.viewB" }
+                    }
+                })
+                .state('route2', {
+                    url: "/route2",
+                    views: {
+                        "viewA": { template: "route2.viewA" },
+                        "viewB": { template: "route2.viewB" }
+                    }
+                })
+        });
+    </script>
+</head>
+<body>
+    <div ui-view="viewA"></div>
+    <div ui-view="viewB"></div>
+    <!-- Also a way to navigate -->
+    <a ui-sref="route1">Route 1</a>
+    <a ui-sref="route2">Route 2</a>
+</body>
+</html>
