@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="jquery.justPopup.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+</head>
+<body>
+<div id="display">Click me</div>
+<div class="overlay">
+    <div class="inner">
+        <div class="content">Popup<br>
+            <br>
+            This is a popup window.<br>
+            <br>
+        </div>
+        <span class="close"></span> </div>
+    <div class="transparency"></div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $("#display").justPopup();
+    });
+</script>
+
+</body>
+</html>
